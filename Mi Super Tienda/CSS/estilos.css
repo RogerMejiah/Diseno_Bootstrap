@@ -1,0 +1,59 @@
+
+/* <!-- CSS: Cascade StyleSheet (Hoja de Estilo en Cascada) -->
+    <!-- Agregar estilos medinate selectores -->
+    <!-- Agregar estilos mediante clases se generan con un punto -->
+     <!-- MaterialUi.co/colors --> */
+
+html{
+    font-family: system-ui,sans-serif;
+    font-size: 16px;
+    /*TODO: Trabajar con unidades em y rem en lugar de px*/
+    /* rem = Root Element  rem=16px*/
+}
+h2{
+    color: #1565C0 !important; /* esto nos da prioridad  al la propiedad si definimos en otro lagar*/
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* . es el Selector para una clase */
+.titulo{
+    color: #283593;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.parrafo{
+    color: #283593;
+    font-size: 18px;
+    font-family:system-ui,sans-serif;
+    text-align: center;
+}
+
+.card{
+    background-color: #F5F5F5;
+    border-radius: 0.5rem;
+    box-shadow: 0.2rem 0.2rem .2rem #90A4AE;
+
+    max-width: 15rem; 
+    padding: 1rem;
+    display: flex;
+    flex-direction:column;
+}
+
+.boton{
+    background-color: #1565C0;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    margin: 0.5rem 0rem;
+}
+.categoria{
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
